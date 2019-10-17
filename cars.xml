@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<row>
-  <car>15</car>
-  <points>100</points>
-</row>
-<row>
-  <car>6</car>
-  <points>90</points>
-</row>
+<root>
+  <row>
+    <car>15</car>
+    <points>100</points>
+  </row>
+  <row>
+    <car>6</car>
+    <points>90</points>
+  </row>
+</root>
