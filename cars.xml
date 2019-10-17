@@ -3,6 +3,7 @@
   <row>
     <car>15</car>
     <points>100</points>
+    <color>red</color>
   </row>
   <row>
     <car>6</car>
