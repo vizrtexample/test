@@ -1,53 +1,36 @@
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"
-  xmlns:dcterms="http://purl.org/dc/terms/">
-
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Music Videos 101</title>
+    <title>Song Site</title>
     <link>http://www.foo.com</link>
-    <description>Discussions of great videos</description>
+    <description>Songs galore at different bitrates</description>
     <item>
-      <title>The latest video from an artist 1</title>
+      <title>Cool song by an artist</title>
       <link>http://www.foo.com/item1.htm</link>
-      <media:content url="http://www.foo.com/movie1.mov" fileSize="12216320" type="video/quicktime" expression="full">
-        <media:player url="http://www.foo.com/player?id=1111" height="200" width="400" />
-        <media:hash algo="md5">dfdec888b72151965a34b4b59031290a</media:hash>
-        <media:credit role="producer">producer's name</media:credit>
-        <media:credit role="artist">artist's name</media:credit>
-        <media:category scheme="http://blah.com/scheme">
-          music/artistname/album/song
-        </media:category>
-        <media:text type="plain">
-          Oh, say, can you see, by the dawn's early light
-        </media:text>
+      <media:group>
+        <media:content url="http://www.foo.com/song64kbps.mp3"
+          fileSize="1000" bitrate="64" type="audio/mpeg"
+          isDefault="true" expression="full" />
+
+        <media:content url="http://www.foo.com/song128kbps.mp3"
+          fileSize="2000" bitrate="128" type="audio/mpeg"
+          expression="full" />
+
+        <media:content url="http://www.foo.com/song256kbps.mp3"
+          fileSize="4000" bitrate="256" type="audio/mpeg"
+          expression="full" />
+
+        <media:content url="http://www.foo.com/song512kbps.mp3.torrent"
+          fileSize="8000" type="application/x-bittorrent;enclosed=audio/mpeg"
+          expression="full" />
+
+        <media:content url="http://www.foo.com/song.wav"
+          fileSize="16000" type="audio/x-wav" expression="full" />
+
+        <media:credit role="musician">band member 1</media:credit>
+        <media:credit role="musician">band member 2</media:credit>
+        <media:category>music/artist name/album/song</media:category>
         <media:rating>nonadult</media:rating>
-        <dcterms:valid>
-          start=2002-10-13T09:00+01:00;
-          end=2002-10-17T17:00+01:00;
-          scheme=W3C-DTF
-        </dcterms:valid>
-      </media:content>
+      </media:group>
     </item>
-    <item>
-      <title>The latest video from an artist 2</title>
-      <link>http://www.foo.com/item1.htm</link>
-      <media:content url="http://www.foo.com/movie2.mov" fileSize="12216320" type="video/quicktime" expression="full">
-        <media:player url="http://www.foo.com/player?id=1111" height="200" width="400" />
-        <media:hash algo="md5">dfdec888b72151965a34b4b59031290a</media:hash>
-        <media:credit role="producer">producer's name</media:credit>
-        <media:credit role="artist">artist's name</media:credit>
-        <media:category scheme="http://blah.com/scheme">
-          music/artistname/album/song
-        </media:category>
-        <media:text type="plain">
-          Oh, say, can you see, by the dawn's early light
-        </media:text>
-        <media:rating>nonadult</media:rating>
-        <dcterms:valid>
-          start=2002-10-13T09:00+01:00;
-          end=2002-10-17T17:00+01:00;
-          scheme=W3C-DTF
-        </dcterms:valid>
-      </media:content>
-    </item>    
   </channel>
 </rss>
