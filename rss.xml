@@ -19,7 +19,7 @@
           fileSize="4000" bitrate="256" type="audio/mpeg"
           expression="full" />
 
-        <media:content url="http://www.foo.com/song512kbps.mp3.torrent"
+        <media:content url="http://www.foo.com/song512kbps.mp3"
           fileSize="8000" type="application/x-bittorrent;enclosed=audio/mpeg"
           expression="full" />
 
