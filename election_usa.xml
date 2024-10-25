@@ -1,4 +1,4 @@
-<Sumtable PrecinctsPct="99" office="President" Test="1" timestamp="2024-10-23T21:44:17Z">
+<Sumtable PrecinctsPct="98" office="President" Test="1" timestamp="2024-10-23T21:44:17Z">
     <Cand name="Harris" CandID="64984" party="Dem" Winner="X" PopVote="80264471" PopPct="53" StatesWon="29" ElectWon="389" StatesLead="0" ElectLead="0" />
     <Cand name="Trump" CandID="8639" party="GOP" Winner="" PopVote="69177426" PopPct="46" StatesWon="22" ElectWon="149" StatesLead="0" ElectLead="0" />
     <Cand name="Others" Winner="" PopVote="2472627" PopPct="2" StatesWon="0" ElectWon="0" StatesLead="0" ElectLead="0" />
